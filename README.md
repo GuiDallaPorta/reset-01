@@ -1,1 +1,1 @@
-# CWI Reset é demaaaaaaaais!!!!!
+# CWI Reset é demaaaaaaaais (git pull) !!!!!
