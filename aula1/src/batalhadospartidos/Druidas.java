@@ -1,4 +1,4 @@
-package batalhadospartidos;
+package aula1.batalhadospartidos;
 
 public class Druidas {
     String nomeDoDruida;

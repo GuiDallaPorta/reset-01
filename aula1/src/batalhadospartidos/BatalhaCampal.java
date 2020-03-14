@@ -1,4 +1,4 @@
-package batalhadospartidos;
+package aula1.batalhadospartidos;
 
 public class BatalhaCampal {
 
@@ -33,7 +33,7 @@ public class BatalhaCampal {
 
                 int danoFinalDoAtaque2 = maluf.atacar(lulinha, magianegra);
                 lulinha.sofrerDano(danoFinalDoAtaque2);
-                System.out.println("O Mago " + maluf.nomeDoMago + " atacou " + lulinha.nomeDoGuerreiro + " com " + magianegra.magia + " causando dano de " + danoFinalDoAtaque2 + "e está com a mana de ");
+                System.out.println("O Mago " + maluf.nomeDoMago + " atacou " + lulinha.nomeDoGuerreiro + " com " + magianegra.magia + " causando dano de " + danoFinalDoAtaque2);
                 System.out.println(lulinha.nomeDoGuerreiro + " está com a vida " + lulinha.vida);
 
                 if (lulinha.estaMorto()) {
@@ -145,4 +145,5 @@ public class BatalhaCampal {
         }
     }
 }
+
 
